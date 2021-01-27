@@ -9,7 +9,7 @@ from datetime import datetime
 
 Base = declarative_base()
 
-dburl = "mysql+pymysql://root:WWzxy219@@127.0.0.1:3306/douban_dy?charset=utf8mb4"
+dburl = "mysql+pymysql://root:xxxxxxx@127.0.0.1:3306/douban_dy?charset=utf8mb4"
 engine = create_engine(dburl, echo=False, encoding="utf-8")
 
 # 使用sqlalchemy orm创建表
